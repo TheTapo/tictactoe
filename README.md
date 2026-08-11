@@ -11,11 +11,11 @@ A simple collection of functions written in C to implement Tic Tac Toe in the CL
 Code to get started with game:
 (save it as main.c)
 ```
-#include "tictactoe.h" // import the library
+#include "tictactoe.h" // Import the library
 #include <stdio.h>
 int main(void) {
-  grid playingGrid;
-  game(&playingGrid);
+  grid playingGrid;   // Initialize our playing grid
+  game(&playingGrid); // Start the game
   return 0;
 }
 ```
